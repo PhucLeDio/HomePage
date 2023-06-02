@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/HomePage.css">
+  <!--
+    Link animate.style
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--
+    Link AOS 
+  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--
+    HOVER CSS
+  -->
+  <link rel="stylesheet" href="../Hover-master/css/hover-min.css">
+  <!--
+    SCSS
+  -->
+  <link rel="stylesheet" href="../sass/style.css">
+  <!--
+    SWIPER JS
+  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!--
+    I HOVER css
+  -->
+  <link rel="stylesheet" href="../css/ihover.css">
+  <!--
+    SLICK JS
+  -->
+
+  <!--
+    WORLD MAP
+  -->
+  <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--
+        HEADER
+    -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-scroll-hide">
+    <div class="container-sm">
+      <a class="navbar-brand" href="#"><span class="text-warning">Farming</span>Boys</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Port</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!--
+        CAROUSEL
+    -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active bg-1">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__lightSpeedInRight">Climate <span class="text-warning">Change</span>
+          </h5>
+          <p class="animate__animated animate__lightSpeedInRight">"Change the future, save the planet"</p>
+          <a href="" class="bg-waring text-white animate__animated animate__fadeInUp">Learn more</a>
+        </div>
+      </div>
+      <div class="carousel-item bg-2">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__lightSpeedInRight">Climate <span class="text-warning">Change</span>
+          </h5>
+          <p class="animate__animated animate__lightSpeedInRight">"Change the future, save the planet"</p>
+          <a href="" class="bg-waring text-white animate__animated animate__fadeInUp">Learn more</a>
+        </div>
+      </div>
+      <div class="carousel-item bg-3">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__lightSpeedInRight">Climate <span class="text-warning">Change</span>
+          </h5>
+          <p class="animate__animated animate__lightSpeedInRight">"Change the future, save the planet"</p>
+          <a href="#content-zone" class="bg-waring text-white animate__animated animate__fadeInUp">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"><img src="../img/forest.jpg" alt=""
+          class="d-block w-100 img-fluid"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"><img
+          src="../img/sea.jpg" alt="" class="d-block w-100 img-fluid"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"><img
+          src="../img/sky.jpg" alt="" class="d-block w-100 img-fluid"></button>
+    </div>
+  </div>
+
+  <!--
+    CONTENT
+  -->
+  <div id="content-zone" data-aos="fade-up" class="container-sm welcome">
+    <h3>ENVIROMENT</h3>
+    <div class="line-5"></div>
+    <br><br>
+    <h4>CLIMATE CHANGE</h4>
+    <p>"Climate change is an environmental problem caused by human activities that is leading to negative impacts such
+      as rising sea levels, natural disasters, and loss of biodiversity. Addressing this issue requires reducing
+      greenhouse gas emissions and increasing conservation efforts."</p>
+    <div class="row">
+      <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+        <div class="world-map hvr-grow">
+          <div id="svgMap"></div>
+          <div class="title-zone text-center text-uppercase font-weight-bold"
+            style="padding: 10px; font-weight: 30px; cursor: pointer;">Climate change world map</div>
+          <div class="date-zone text-center text-uppercase font-weight-bold"
+            style="padding: 10px; font-weight: 30px; cursor: pointer;"><i class="fa-solid fa-calendar"></i> Lastest
+            Update date: 01/06/2023</div>
+        </div>
+      </div>
+      <div class="col-md-6 detail">
+        <div class="card mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+          style="box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://media-cdn-v2.laodong.vn/storage/newsportal/2021/2/2/876820/Bao-Tuyet-My-1.jpg"
+                class="img-fluid rounded-start" alt="..." style="height: 100%;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">United States of America</h5>
+                <p class="text-md-start fs-6 fw-light">The US began to suffer the effects of climate change such as
+                  "super drought", "flash flood", "snowstorm",...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
+          style="box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://vtv1.mediacdn.vn/zoom/700_438/2022/1/31/1000-16435988586401552711401.jpeg"
+                class="img-fluid rounded-start" alt="..." style="height: 100%;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Brazil</h5>
+                <p class="text-md-start fs-6 fw-light">Climate change coupled with unplanned construction in areas prone
+                  to severe "floods" and "landslide" in Brazil.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"
+          style="box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://cdnmedia.baotintuc.vn/2014/08/20/15/52/nan.jpg" class="img-fluid rounded-start"
+                alt="..." style="height: 100%;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">China</h5>
+                <p class="text-md-start fs-6 fw-light">The greenhouse effect affects the temperature in China causing
+                  the average temperature to rise rapidly, ...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+      PARALLAX
+    -->
+  <div class="image-save-enviroment">
+    <div class="container-fluid parallax scramble-text">
+      <div class="text-scramble" style=""></div>
+    </div>
+  </div>
+
+  <!--
+    ALL EFFECT TO THE CLIMATE iN THE EARTH
+  -->
+  <section class="activity">
+    <div class="container effect-climate">
+      <h3 style="text-align: center;">ALL EFFECT TO THE CLIMATE</h3><br>
+      <div class="carousel">
+        <input type="radio" name="slides" checked="checked" id="slide-1">
+        <input type="radio" name="slides" id="slide-2">
+        <input type="radio" name="slides" id="slide-3">
+        <input type="radio" name="slides" id="slide-4">
+        <input type="radio" name="slides" id="slide-5">
+        <input type="radio" name="slides" id="slide-6">
+        <ul class="carousel__slides">
+          <li class="carousel__slide">
+            <figure>
+              <div data-aos="fade-up" data-aos-duration="1000">
+                <img src="https://thanhnien.mediacdn.vn/325084952045817856/2022/9/23/base64-1663914638513106410492.jpeg"
+                  alt="">
+              </div>
+              <figcaption data-aos="fade-up" data-aos-duration="1000">
+                "Super typhoon" sweeps the Philippines.
+                <span class="credit">Photo: Tim Marshall</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img
+                  src="https://vtv1.mediacdn.vn/zoom/550_339/2020/1/11/chay-rung-australia-5-15787029137171354328282.jpg"
+                  alt="">
+              </div>
+              <figcaption>
+                Australia's "forest fire" burned everything.
+                <span class="credit">Photo: Christian Joudrey</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img
+                  src="https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2022/8/29/avatar1661740542350-16617405428841497536697.jpg"
+                  alt="">
+              </div>
+              <figcaption>
+                "Super drought" in China "evaporates" a thousand-year-old lake.
+                <span class="credit">Photo: Steve Carter</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img src="https://vtv1.mediacdn.vn/zoom/700_438/2018/12/24/bang-tan-bac-cuc-1545643215898397840991.jpg"
+                  alt="">
+              </div>
+              <figcaption>
+                "The ice melts" causing the "arctic" to release 14 thousand tons of water into the sea every second.
+                <span class="credit">Photo: Aleksandra Boguslawska</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img src="https://baovemoitruong.org.vn/wp-content/uploads/2021/10/031021_dvhd1.jpg" alt="">
+              </div>
+              <figcaption>
+                Last picture of Poouli bird before they became extinct.
+                <span class="credit">Photo: Rosan Harmens</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img src="https://cdn.pixabay.com/photo/2020/05/26/20/38/climate-change-5224748_960_720.jpg" alt="">
+              </div>
+              <figcaption>
+                Earth become warmer due to record-high levels of greenhouse gas emissions.
+                <span class="credit">Photo: NASA</span>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+        <ul class="carousel__thumbnails">
+          <li>
+            <label for="slide-1"><img
+                src="https://thanhnien.mediacdn.vn/325084952045817856/2022/9/23/base64-1663914638513106410492.jpeg"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-2"><img
+                src="https://vtv1.mediacdn.vn/zoom/550_339/2020/1/11/chay-rung-australia-5-15787029137171354328282.jpg"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-3"><img
+                src="https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2022/8/29/avatar1661740542350-16617405428841497536697.jpg"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-4"><img
+                src="https://vtv1.mediacdn.vn/zoom/700_438/2018/12/24/bang-tan-bac-cuc-1545643215898397840991.jpg"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-5"><img src="https://baovemoitruong.org.vn/wp-content/uploads/2021/10/031021_dvhd1.jpg"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-6"><img
+                src="https://cdn.pixabay.com/photo/2020/05/26/20/38/climate-change-5224748_960_720.jpg"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" alt=""></label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    DONATE
+  -->
+  <div class="donate">
+    <div class="container-fluid next-parallax donate-us position-relative">
+      <div class="text-center ">
+        <div data-aos="fade-down-left"
+          class="card-body position-absolute top-50 start-50 translate-middle glassmorphism">
+          <h5 class="card-title">JOIN US AND HELP US BY DONATION</h5>
+          <div class="container overflow-hidden text-center">
+            <div class="row gx-5">
+              <div class="col">
+                <div class="p-3">
+                  <h6 style="text-transform: uppercase;">join us as a member</h6>
+                  <img class="img-fluid"
+                    src="https://static2.yan.vn/YanNews/2167221/202010/tinh-nguoi-am-ap-trong-mua-mua-lu-o-mien-trung-khong-mot-ai-bi-bo-lai-b941a7f5.jpg"
+                    alt="">
+                  <p>Become a member and get ready to receive information about our volunteer activities!</p>
+                  <div class="container-fluid">
+                    <div class="row row-cols-lg-4">
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">$10/MO</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">$25/MO</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">$40/MO</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">$55/MO</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <h6 style="text-transform: uppercase;">make a one time gift</h6>
+                  <br>
+                  <div class="container text-center">
+                    <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">&emsp;&nbsp;$10&nbsp;&emsp;</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">&emsp;&nbsp;$25&nbsp;&emsp;</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">&emsp;&nbsp;$50&nbsp;&emsp;</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">&emsp;$100&emsp;</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">&emsp;$250&emsp;</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary">&emsp;$500&emsp;</button>
+                      </div>
+                    </div>
+                    <br>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                      placeholder="Name your own account, maybe $44?">
+                    <br>
+                    <div class="container text-center">
+                      <div class="row">
+                        <div class="col-4">
+                        </div>
+                        <div class="col-8">
+                          <div class="form-check">
+                            <input class="form-check-input text-start" type="checkbox" value="" id="flexCheckChecked"
+                              checked>I'll cover my transaction fees
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="btn-3d">
+                      <span class="btn-3d-group"><a href=""></a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+  <!--
+    STATISTICAL DATA
+  -->
+  <div class="container-sm" data-aos="fade-up" data-aos-duration="2000">
+    <h3 style="text-align: center;">STATISTICAL DATA</h3>
+    <br>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-CO2-tab" data-bs-toggle="pill" data-bs-target="#pills-CO2"
+          type="button" role="tab" aria-controls="pills-CO2" aria-selected="true">CO2</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-Temperature-tab" data-bs-toggle="pill" data-bs-target="#pills-Temperature"
+          type="button" role="tab" aria-controls="pills-Temperature" aria-selected="false">Temperature</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-Methane-tab" data-bs-toggle="pill" data-bs-target="#pills-Methane"
+          type="button" role="tab" aria-controls="pills-Methane" aria-selected="false">Methane</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-seaLevel-tab" data-bs-toggle="pill" data-bs-target="#pills-seaLevel"
+          type="button" role="tab" aria-controls="pills-seaLevel" aria-selected="true">seaLevel</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-iceSheets-tab" data-bs-toggle="pill" data-bs-target="#pills-iceSheets"
+          type="button" role="tab" aria-controls="pills-iceSheets" aria-selected="false">iceSheets</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-CO2" role="tabpanel" aria-labelledby="pills-CO2-tab"
+        tabindex="0">
+        <canvas id="myChart-1"></canvas>
+      </div>
+      <div class="tab-pane fade" id="pills-Temperature" role="tabpanel" aria-labelledby="pills-Temperature-tab"
+        tabindex="0">
+        <canvas id="myChart-2"></canvas>
+      </div>
+      <div class="tab-pane fade" id="pills-Methane" role="tabpanel" aria-labelledby="pills-Methane-tab" tabindex="0">
+        <canvas id="myChart-3"></canvas>
+      </div>
+      <div class="tab-pane fade" id="pills-seaLevel" role="tabpanel" aria-labelledby="pills-seaLevel-tab" tabindex="0">
+        <canvas id="myChart-4"></canvas>
+      </div>
+      <div class="tab-pane fade" id="pills-iceSheets" role="tabpanel" aria-labelledby="pills-iceSheets-tab"
+        tabindex="0">
+        <canvas id="myChart-5"></canvas>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--
+    OUR MISSION AND TESTMOMINALS
+  -->
+  <div class="container-sm swiper-body-1">
+    <div class="row">
+      <div class="col our-mission">
+        <br>
+        <h3>OUR MISSION</h3>
+        <br>
+        <div class="grid text-center">
+          <div data-aos="fade-up" data-aos-duration="1000" class="g-col-6"><img class="img-fluid"
+              src="../img/volumteer enviromental.jpg" alt=""></div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="g-col-6"><img
+              class="img-fluid children-enviromental" src="../img/children enviromental.jpg" style="height: 171.13px;"
+              alt=""></div>
+        </div>
+        <br>
+        <div class="card-body" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <h5 class="card-title">PROPAGANDA AND PROMOTION</h5>
+          <p class="card-text" style="text-align: left;">"Our mission is to propagate and organize activities for the
+            environment to help people raise awareness and contribute to protecting our planet."</p>
+        </div>
+      </div>
+      <div class="col content-wrapper">
+        <br>
+        <h3>Quotations</h1>
+          <div class="wrapper-for-arrows" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+            <div id="reviewWrap" class="review-wrap" style="transform: translateZ(20px);">
+              <div id="imgDiv"></div>
+              <div id="personName"></div>
+              <div id="profession"></div>
+              <div id="description"></div>
+            </div>
+            <div id="surpriseMeBtn" class="surprise-me-btn">Surprise me</div>
+            <div class="left-arrow-wrap arrow-wrap">
+              <div class="arrow" id="leftArrow"></div>
+            </div>
+            <div class="right-arrow-wrap arrow-wrap">
+              <div class="arrow" id="rightArrow"></div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+
+  <!--
+    LASTEST NEWS
+  -->
+  <div class="page-wrapper container-sm">
+    <div class="post-slider">
+      <h1 class="slider-title">Lastest News</h1>
+      <i class="fas fa-chevron-left prev"></i>
+      <i class="fas fa-chevron-right next"></i>
+      <div class="post-wrapper">
+        <div class="post">
+          <img
+            src="https://i1-vnexpress.vnecdn.net/2023/05/26/1000-2-9856-1685085302.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=gbUUA5LZVWJA-MnJdnQGtw"
+            alt="" class="slider-image img-fluid">
+          <div class="post-info">
+            <h4><a href="">The largest state in the US escaped the electricity crisis</a></h4>
+            &nbsp; <i class="far fa-calendar"> &nbsp; 31-05-2023</i>
+          </div>
+        </div>
+
+        <div class="post">
+          <img
+            src="https://phapluatxahoi.kinhtedothi.vn/stores/news_dataimages/2022/052022/27/17/in_article/673eca18e55e0ea6647daed8783a47b5.jpg?rt=20220527174403"
+            alt="" class="slider-image img-fluid">
+          <div class="post-info">
+            <h4><a href="">Climate change threatens to cause 'super-tsunami'</a></h4>
+            &nbsp; <i class="far fa-calendar"> &nbsp; 31-05-2023</i>
+          </div>
+        </div>
+
+        <div class="post">
+          <img src="https://c1.wallpaperflare.com/preview/504/73/211/sunset-denmark-sea-coast.jpg" alt=""
+            class="slider-image img-fluid">
+          <div class="post-info">
+            <h4><a href="">2 billion people will live in hot temperatures 2100</a></h4>
+            &nbsp; <i class="far fa-calendar"> &nbsp; 31-05-2023</i>
+          </div>
+        </div>
+
+        <div class="post">
+          <img src="https://scx2.b-cdn.net/gfx/news/2021/aid-groups-and-enginee.jpg" alt=""
+            class="slider-image img-fluid">
+          <div class="post-info">
+            <h4><a href="">More than half of the world's great lakes are drying up</a></h4>
+            &nbsp; <i class="far fa-calendar"> &nbsp; 31-05-2023</i>
+          </div>
+        </div>
+
+        <div class="post">
+          <img src="https://media.vov.vn/sites/default/files/styles/large/public/2022-06/photo_splos_32.1.jpeg" alt=""
+            class="slider-image img-fluid">
+          <div class="post-info">
+            <h4><a href="">Vietnam promotes resolution at UN on climate change</a></h4>
+            &nbsp; <i class="far fa-calendar"> &nbsp; 31-05-2023</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+    FOOTER
+  -->
+  <br>
+  <footer class="bg-light text-dark pt-5 pb-4">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Conclution</h5>
+          <hr class="mb-4">
+          <p class="text-start">Climate change is a global crisis caused by human activities. It harms people, nature,
+            and the planet. We need to reduce our emissions and restore our ecosystems to prevent more damage and ensure
+            a sustainable future.</p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Let us help</h5>
+          <hr class="mb-4">
+          <p>
+            <a href="" class="text-dark text-start" style="text-decoration: none;">Your Account</a>
+          </p>
+          <p>
+            <a href="" class="text-dark text-start" style="text-decoration: none;">Your Orders</a>
+          </p>
+          <p>
+            <a href="" class="text-dark" style="text-decoration: none;">Manage Your Content And Devices</a>
+          </p>
+          <p>
+            <a href="" class="text-dark" style="text-decoration: none;">Help</a>
+          </p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Make money</h5>
+          <hr class="mb-4">
+          <p>
+            <a href="" class="text-dark" style="text-decoration: none;">Sell Products On Our Website</a>
+          </p>
+          <p>
+            <a href="" class="text-dark" style="text-decoration: none;">Advertise Your Products</a>
+          </p>
+          <p>
+            <a href="" class="text-dark" style="text-decoration: none;">Become A Marketter</a>
+          </p>
+          <p>
+            <a href="" class="text-dark" style="text-decoration: none;">Self-Public</a>
+          </p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+          <hr class="mb-4">
+          <p>
+            <li class="fas far-home mr-3"></li>New York NY 2333, USA
+          </p>
+          <p>
+            <li class="fas far-envelop mr-3"></li>dinhphucle3@gmail.com
+          </p>
+          <p>
+            <li class="fas far-phone mr-3"></li>+84 777911807
+          </p>
+          <p>
+            <li class="fas far-print mr-3">+84 123456789</li>
+          </p>
+        </div>
+
+        <hr class="mb-4">
+        <div class="row d-flex justify-content-center">
+          <div>
+            <p>
+              Copyright 2023 All Rights Reserved By :
+              <a href="" style="text-decoration: none;">
+                <strong class="text-info">The Providers</strong>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="text-center">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="" class="text-dark">
+              <li class="fab fa-facebook"></li></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-dark">
+              <li class="fab fa-twitter"></li></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-dark">
+              <li class="fab fa-google-plus"></li></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-dark">
+              <li class="fab fa-linkedin-in"></li></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-dark">
+              <li class="fab fa-youtube"></li></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+
+
+
+
+  <!--
+    SCRIPT world map
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.js"></script>
+
+  <!--
+    Script fontawesome
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- script boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+  <!--
+    Script AOS
+  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--
+    Script swiper js
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script>
+
+  </script>
+  <!--
+    SCRIPT vanilla-tilt
+  -->
+  <script src="../js/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelector(".your class name"), {
+      max: 25,
+      speed: 1000
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+  <!--
+    SCRIPT JQUERY
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+  <!--
+    JQUERY SCRIPT SLICK JS
+  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!--
+    SCRIPT chart js
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="../js/HomePage.js"></script>
+</body>
+
+</html>
