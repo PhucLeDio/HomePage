@@ -1,6 +1,7 @@
 stages: 
   - build
   - test
+  - deploy
 
 build laptop:
   image: alpine
@@ -21,3 +22,9 @@ test laptop:
   imagine: alpine
   script: 
   - test -f build/computer.txt
+
+deploy laptop:
+  state: deploy
+  script:
+  - echo "kamen rider henshin"
+
