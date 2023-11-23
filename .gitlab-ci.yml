@@ -8,3 +8,8 @@ build laptop:
   - cat build/computer.txt
   - echo "keyboard" >> build/computer.txt
   - cat build/computer.txt
+
+test laptop:
+  imagine: alpine
+  script: 
+  - test -f build/computer.txt
