@@ -1,0 +1,10 @@
+build laptop:
+  image: alpine
+  script:
+  - echo "building a laptop"
+  - mkdir build
+  - touch build/computer.txt
+  - echo "mainboard" >> build/computer.txt
+  - cat build/computer.txt
+  - echo "keyboard" >> build/computer.txt
+  - cat build/computer.txt
