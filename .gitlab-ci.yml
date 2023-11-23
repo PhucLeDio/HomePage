@@ -1,3 +1,7 @@
+stages: 
+  - build
+  - test
+
 build laptop:
   image: alpine
   script:
@@ -8,6 +12,10 @@ build laptop:
   - cat build/computer.txt
   - echo "keyboard" >> build/computer.txt
   - cat build/computer.txt
+
+artifacts:
+  path:
+  - build
 
 test laptop:
   imagine: alpine
